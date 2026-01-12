@@ -46,9 +46,15 @@ func main() {
 
 		if guess == hiragana[character] {
 			answersCorrect += 1
+			fmt.Printf("\033[32mAnswer Correct!!!\033[0m\n")
+		} else {
+			fmt.Printf("\033[31mAnswer Incorrect, answer should be %s\033[0m\n", hiragana[character])
 		}
 	}
 
-	fmt.Println("Answers correct:", answersCorrect)
+	percent := (float64(answersCorrect) / float64(len(hiragana))) * 100
+
+	fmt.Printf("Answers correct: %d/%d\n", answersCorrect, len(hiragana))
+	fmt.Printf("Percent correct: %.1f%%\n", percent)
 
 }
