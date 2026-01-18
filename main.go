@@ -63,6 +63,10 @@ func main() {
 		"オ": "o",
 		"カ": "ka",
 		"キ": "ki",
+		"ク": "ku",
+		"ケ": "ke",
+		"コ": "ko",
+		"サ": "sa",
 	}
 
 	answersCorrect := 0
