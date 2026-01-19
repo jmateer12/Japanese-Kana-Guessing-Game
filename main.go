@@ -67,6 +67,10 @@ func main() {
 		"ケ": "ke",
 		"コ": "ko",
 		"サ": "sa",
+		"シ": "shi",
+		"ス": "su",
+		"セ": "se",
+		"ソ": "so",
 	}
 
 	answersCorrect := 0
