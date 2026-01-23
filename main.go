@@ -102,7 +102,7 @@ func main() {
 		"ワ": "wa",
 		"ヰ": "wi",
 		"ヲ": "wo",
-		"ン": "so",
+		"ン": "n",
 	}
 
 	answersCorrect := 0
